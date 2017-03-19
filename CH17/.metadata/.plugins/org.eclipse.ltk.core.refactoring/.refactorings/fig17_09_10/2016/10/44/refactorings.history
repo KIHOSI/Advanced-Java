@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;AccountRecord.java&apos; to &apos;fig17_11_13/src/com.deitel.ch17&apos;&#x0D;&#x0A;- 原始物件：&apos;fig17_09_10&apos;&#x0D;&#x0A;- 目的地元素：&apos;fig17_11_13/src/com.deitel.ch17&apos;&#x0D;&#x0A;- 原始元素：&apos;com.deitel.ch17.AccountRecord.java&apos;&#x0D;&#x0A;- 更新對已重構元素的參照" description="移動編譯單元" destination="=fig17_11_13/src&lt;com.deitel.ch17" element1="/src&lt;com.deitel.ch17{AccountRecord.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1477301159113" units="1" version="1.0"/>
+</session>

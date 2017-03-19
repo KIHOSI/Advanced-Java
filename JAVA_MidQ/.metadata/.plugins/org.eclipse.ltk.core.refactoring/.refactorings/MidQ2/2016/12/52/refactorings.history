@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;MidQ2_After/src&apos;&#x0D;&#x0A;- 原始物件：&apos;MidQ2&apos;&#x0D;&#x0A;- 目的地元素：&apos;MidQ2_After/src&apos;&#x0D;&#x0A;- 原始元素：&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=僅移動文字GameSerializable.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=僅移動文字PokeSerializable.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=僅移動文字MidQ2.java" description="複製編譯單元" destination="=MidQ2_After/src" element1="/src&lt;{GameSerializable.java" element2="/src&lt;{PokeSerializable.java" element3="/src&lt;{MidQ2.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1482205294275" units="3" version="1.0"/>
+</session>

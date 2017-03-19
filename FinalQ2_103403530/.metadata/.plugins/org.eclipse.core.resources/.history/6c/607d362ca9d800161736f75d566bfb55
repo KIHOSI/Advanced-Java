@@ -1,0 +1,340 @@
+//FinalQ2:103403530 洪靖雯
+import java.awt.BorderLayout;
+import java.awt.Event;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.io.EOFException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.ConnectException;
+import java.util.Scanner;
+
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
+
+
+public class Client extends JFrame {
+	//介面
+	private JPanel showStateJPanel = new JPanel(); //最上排狀態列
+	private JPanel showCenterInfoJPanel = new JPanel();//中間的區塊(骰子圖案、選擇骰子圖案、聊天室)
+	private JPanel sendMsgJPanel = new JPanel(); //傳送訊息的地方
+	//上
+	private JLabel nickNameJLabel = new JLabel("請輸入您的暱稱:"); //我的暱稱
+	private JTextField nickNameJTextField = new JTextField(15); //顯示輸入名稱
+	private JLabel showPalyerState = new JLabel("暱稱重複!"); //告訴玩家現在狀態
+	private JLabel emptyJLabel = new JLabel(); //空的，為了排版
+	//中1
+	private JPanel dicePicJPanel = new JPanel();//放骰子圖案
+	private Icon[] diceImg = {
+			new ImageIcon(getClass().getResource("1.png")),
+			new ImageIcon(getClass().getResource("2.png")),
+			new ImageIcon(getClass().getResource("3.png")),
+			new ImageIcon(getClass().getResource("4.png")),
+			new ImageIcon(getClass().getResource("5.png")),
+			new ImageIcon(getClass().getResource("6.png"))}; //骰子1的圖形
+	private JLabel diceJLabel1 = new JLabel(); //第一顆骰子
+	private JLabel diceJLabel2 = new JLabel(); //第二顆骰子
+	private JLabel diceJLabel3 = new JLabel(); //第三顆骰子
+	private JLabel diceJLabel4 = new JLabel(); //第四顆骰子
+	private JLabel diceJLabel5 = new JLabel(); //第五顆骰子
+	private JLabel diceJLabel6 = new JLabel(); //第六顆骰子
+	//中2
+	private JPanel chooseDiceJPanel = new JPanel(); //選擇骰子
+	private JButton diceNumJButton= new JButton("數量"); //數量
+	private JComboBox diceNumJComboBox;
+	private static final String diceNum[] = {"2","3","4","5","6","7","8","9","10"};
+	private JButton diceJButton = new JButton("骰子編號:");
+	private JComboBox diceJComboBox;
+	private static final String dice[] = {"2","3","4","5","6"};
+	private JButton yellJButton = new JButton("喊");
+	private JButton catchJButton = new JButton("抓");
+	//中3
+	private JPanel chatRoomJPanel = new JPanel(); //聊天室
+	private JTextArea showChatRoomJTextArea = new JTextArea(15,61); //顯示聊天室資訊，設定長度
+	//下
+	private JLabel sendMsgJLabel = new JLabel("傳送訊息:"); //傳送訊息
+	private JTextField sendMsgJTextField = new JTextField(); //輸入傳送訊息，設定長度
+	
+	private String clientHost; //client的host
+	private Socket connection;
+	private ObjectOutputStream output; // output stream to client
+    private ObjectInputStream input; // input stream from client
+    private String message = "";
+	private String Name = "";
+	private boolean close = false;
+	
+	public Client(String host){
+		super("Chat Room Client");
+		clientHost = host;
+		setLayout(new BorderLayout());//分北中南東
+		//上面狀態列
+		showStateJPanel.setLayout(new GridLayout(1,4)); //兩行四列
+		showStateJPanel.add(nickNameJLabel);
+		showStateJPanel.add(nickNameJTextField);
+		showStateJPanel.add(showPalyerState);
+		showStateJPanel.add(emptyJLabel);
+		nickNameJTextField.addActionListener( //按下enter讀取nickname
+				new ActionListener() {
+					
+					@Override
+					public void actionPerformed(ActionEvent arg0) {
+						// TODO 自動產生的方法 Stub
+						//傳送名字
+						Name = nickNameJTextField.getText();
+						//enterNickNameJTextField.setText("");
+						try{
+							output.writeObject(Name); //將名字傳送過去
+							output.flush();
+						}catch(IOException ioException){
+							ioException.printStackTrace();
+						}
+					}
+				}
+					
+			);
+		//中間
+		showCenterInfoJPanel.setLayout(new GridLayout(3,1)); //三列一行
+			//中1
+		dicePicJPanel.setLayout(new FlowLayout(FlowLayout.CENTER)); //靠中間
+		dicePicJPanel.add(diceJLabel1);
+		dicePicJPanel.add(diceJLabel2);
+		dicePicJPanel.add(diceJLabel3);
+		dicePicJPanel.add(diceJLabel4);
+		dicePicJPanel.add(diceJLabel5);
+		dicePicJPanel.add(diceJLabel6);
+			//中2
+		chooseDiceJPanel.setLayout(new GridLayout(6,1)); //六列一行
+		diceNumJButton.setBackground(null);
+		chooseDiceJPanel.add(diceNumJButton);
+		diceNumJComboBox = new JComboBox(diceNum);
+		chooseDiceJPanel.add(diceNumJComboBox);
+		diceJButton.setBackground(null);
+		chooseDiceJPanel.add(diceJButton);
+		diceJComboBox = new JComboBox(dice);
+		chooseDiceJPanel.add(diceJComboBox);
+		chooseDiceJPanel.add(yellJButton);
+		chooseDiceJPanel.add(catchJButton);
+			//中3:聊天室
+		showChatRoomJTextArea.setEditable(false); //不能輸入
+		chatRoomJPanel.add(new JScrollPane(showChatRoomJTextArea));
+		 //下面傳送訊息列
+		sendMsgJPanel.setVisible(false);
+		sendMsgJPanel.setLayout(new GridLayout(1,2)); //二行一列
+		
+		sendMsgJTextField.addActionListener(
+				new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent event) {
+				// TODO 自動產生的方法 Stub
+				sendData(event.getActionCommand());
+				sendMsgJTextField.setText("");
+			}
+		});
+		sendMsgJPanel.add(sendMsgJLabel);
+		sendMsgJPanel.add(sendMsgJTextField);
+		
+		add(showStateJPanel,BorderLayout.NORTH);
+		add(showChatRoomJPanel,BorderLayout.CENTER);
+		add(sendMsgJPanel,BorderLayout.SOUTH);
+		setSize(700,400);
+		setVisible(true);
+		
+		startClient();
+	}
+	
+	public void startClient(){
+		// 執行Client 執行緒
+		try{
+			connectToServer();
+			getStreams();
+			processName();
+			processMessage();
+		}catch(EOFException e){
+			e.printStackTrace();
+		}catch(ClassNotFoundException e){
+			displayMessage( "輸入暱稱過程收到未知的物件\n" );
+		}catch( IOException e )
+		{
+			displayMessage( "連線失敗, 請先開啟Server\n" );
+		} 
+		finally
+		{
+			closeConnection();    // 關閉連線
+		}
+	}
+	
+	// 建立連線Socket
+		private void connectToServer() throws ConnectException, IOException
+		{	
+			try{
+				connection = new Socket( InetAddress.getByName( clientHost ),32768 );
+			}catch(IOException ioException){
+				JOptionPane.showMessageDialog(null,"Can not connect to Chat Server. ","Chat room closed",JOptionPane.ERROR_MESSAGE);
+				System.exit(1); //離開
+			}
+				
+		}
+		
+		// 建立串流
+		private void getStreams() throws IOException
+		{
+			output = new ObjectOutputStream( connection.getOutputStream() );
+			output.flush();
+			input = new ObjectInputStream( connection.getInputStream() );
+		}
+		
+		// 處理暱稱
+		private void processName() throws IOException, ClassNotFoundException
+		{
+			message = (String) input.readObject();
+			//displayMessage("message:"+message+"\n");
+			//if(message.contains("tellMeNumber")){displayMessage("contain\n");}
+			/*while(message.contains("<Server>")||message.contains("tellMeNumber")){
+				message = (String) input.readObject(); //重讀一次
+			}*/
+			while(message.equals("again")) 
+			{
+				//b.setText(String.format("此暱稱已有人使用"));
+				showNickNameErrJLabel.setVisible(true); //顯示暱稱錯誤
+				enterNickNameJTextField.setText(""); //重打
+				message = (String) input.readObject(); //重讀一次
+			}
+			
+			 //畫面開始改變配置
+	    	 JOptionPane.showMessageDialog(null,"進入聊天室");
+	    	 enterNickNameJLabel.setVisible(false);
+	    	 enterNickNameJTextField.setVisible(false);
+	    	 showNickNameErrJLabel.setVisible(false);
+	    	 nickNameJLabel.setVisible(true);
+	    	 nickNameJTextField.setVisible(true);
+	    	 nickNameJTextField.setEditable(false);
+	    	 nickNameJTextField.setText(Name);
+	    	 memberNumJLabel.setVisible(true);
+	    	 memberNumJTextField.setVisible(true);
+	    	 memberNumJTextField.setEditable(false);
+	    	 sendMsgJPanel.setVisible(true);
+			
+		}
+		// 處理訊息
+		private void processMessage() throws IOException, ClassNotFoundException
+		{
+			
+			addWindowListener(new handler());	// 若關閉視窗則運作
+			
+			
+			while(close == false)
+			{
+				try{	// 處理來自server的訊息
+					message = (String) input.readObject();
+					Scanner s = new Scanner(message);
+					String command = s.next();
+					String a[] = command.split("r");
+					
+					if(message.equals("Server Close")){
+						JOptionPane.showMessageDialog(null, "Can not connect to Chat Server","Chat room closed",JOptionPane.WARNING_MESSAGE);
+						System.exit(1); //結束連線
+					}
+					else if(a[0].equals("tellMeNumbe")) //顯示線上人數
+					{
+						memberNumJTextField.setText(a[1]);
+					}
+					else //正常顯示訊息
+					{
+						displayMessage(message + "\n");
+					}
+					
+					s.close();
+				}	// end try
+				catch( ClassNotFoundException e )
+				{
+					displayMessage("<<System>> Client端 收到未知的物件型態");
+				} // end catch
+			}
+		} // end method processConnection
+		private void sendData( String message )
+		{
+			try	// 傳輸資料去給Server
+			{
+				output.writeObject( message );
+				output.flush();
+			}
+			catch(IOException e)
+			{
+				showChatRoomJTextArea.append("資料傳輸錯誤");
+			} // end catch
+		} // end method sendData
+		
+		private void closeConnection()
+		{
+			displayMessage( "與伺服器斷線\n");
+			try{
+				output.writeObject("exit");
+				output.flush();
+				try
+				{
+					output.close();
+					input.close();
+					connection.close();
+				}
+				catch(IOException e)
+				{
+					e.printStackTrace();
+				} // end catch
+			}
+			catch(IOException e)
+			{
+				showChatRoomJTextArea.append("\n資料傳輸錯誤");
+			}
+		} // end method closeConnection
+		private void displayMessage( final String messageToDisplay )
+		{
+			SwingUtilities.invokeLater(
+					new Runnable()
+					{
+						public void run()
+						{
+							showChatRoomJTextArea.append(messageToDisplay);
+						}	// end method run
+					} // end inner class
+			);	// end call to SwingUtilities.invokeLater
+		}	// end method displayMessage	
+		
+		public class handler extends WindowAdapter{
+			public void windowClosing(WindowEvent event)
+			{
+				close=true; 
+				JOptionPane.showMessageDialog(null, "離開聊天室");
+				closeConnection();
+			}
+		}
+		
+		public static void main(String[] args){ //Client主程式
+			  Client application; // declare client application
+
+		      // if no command line args
+		      if ( args.length == 0 )
+		         application = new Client( "127.0.0.1" ); // localhost
+		      else
+		         application = new Client( args[ 0 ] ); // use args
+
+		      application.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+		}
+}

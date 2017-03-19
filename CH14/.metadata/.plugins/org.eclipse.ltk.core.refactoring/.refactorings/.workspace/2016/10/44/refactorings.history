@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="刪除資源 &apos;HW2_103403530&apos;" deleteContents="false" description="刪除資源 &apos;HW2_103403530&apos;" element1="/HW2_103403530" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1477414602656"/>
+</session>

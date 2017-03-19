@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="將 &apos;HW1_103403530&apos; 類型重新命名為 &apos;HW2_103403530&apos;&#x0D;&#x0A;- 原始物件：&apos;HW2_103403530&apos;&#x0D;&#x0A;- 原始元素：&apos;HW1_103403530&apos;&#x0D;&#x0A;- 重新命名的元素：&apos;HW2_103403530&apos;&#x0D;&#x0A;- 更新對已重構元素的參照&#x0D;&#x0A;- 更新註解和字串中的相符文字" description="重新命名類型 &apos;HW1_103403530&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{HW1_103403530.java[HW1_103403530" matchStrategy="1" name="HW2_103403530" qualified="false" references="true" similarDeclarations="false" stamp="1476455054192" textual="false" version="1.0"/>
+</session>

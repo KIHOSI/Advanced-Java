@@ -1,0 +1,1277 @@
+!SESSION 2016-10-24 16:57:34.255 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product -data C:\Users\HOSI\workspace\CH17 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-24 16:58:16.697
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-24 16:58:16.699
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-10-24 17:10:29.598 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-24 17:10:52.231
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-24 17:10:52.248
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-10-24 17:18:35.364 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -data C:\Users\HOSI\workspace\CH17 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-24 17:18:56.342
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-24 17:18:56.343
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-10-27 00:02:00.422 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -data C:\Users\HOSI\workspace\CH17 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-27 00:02:27.744
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-27 00:02:27.776
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-02 14:31:31.397 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-02 14:32:12.839
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-02 14:32:12.861
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-04 15:14:38.812 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-04 15:15:21.849
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-04 15:15:21.871
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-04 15:21:53.367 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -data C:\Users\HOSI\workspace\CH17 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-04 15:22:23.205
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-04 15:22:23.208
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-05 10:01:43.643 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-05 10:01:50.477
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-05 10:02:25.968
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-05 10:02:25.970
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-05 19:27:15.489 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-05 19:27:57.476
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-05 19:27:57.502
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-11-05 21:33:28.183
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Graphics;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.Scanner;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+import javax.imageio.ImageIO;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class HW3_103403530 extends JFrame {
+	private JPanel gameView = new JPanel();//遊戲畫面，放小火龍的圖片
+	//private JPanel nameDisplay = new JPanel(); //放nickname輸入條
+	private JPanel buttonView = new JPanel();//按鈕操作位置
+	private JTextField nickName = new JTextField("Set your nickname"); //輸入名字
+	private JButton giveCandy = new JButton("Give Candy"); //給糖果按鈕
+	private int nowCandy = 0; //現在糖果
+	private int needCandy = 25; //需要糖果
+	private JButton openFile = new JButton("Open Game"); //打開舊檔案按鈕
+	private JButton saveFile = new JButton("Save"); //儲存檔案(舊檔)
+	private JButton saveAnotherFile = new JButton("Save As");//另存新檔
+	private JLabel candyState = new JLabel("0/25");//已給糖果與需多少糖果的狀態
+	private JLabel fileState = new JLabel("New File");//檔案狀態
+	//private Icon pokePic = new ImageIcon(getClass().getResource("small.png"));
+	private BufferedImage pokePic;
+	private String picName = "small.png"; //圖片名稱
+	//private Image pokePic2;
+	//private JLabel gameViewTest = new JLabel();
+	private JPanel buttonView1 = new JPanel(); //分別當四個欄位
+	private JPanel buttonView2 = new JPanel();
+	private JPanel buttonView3 = new JPanel();
+	private JPanel buttonView4 = new JPanel();
+	private ObjectOutputStream output;
+	private ObjectInputStream input;
+	//private Scanner input;
+	
+	//顯示遊戲圖片
+	private class GamePic extends JPanel{
+		public GamePic(){
+			try {      
+		          pokePic = ImageIO.read(getClass().getResource(picName));
+		       } catch (IOException ex) {
+		            // handle exception...
+		       }
+		}
+		public void paintComponent( Graphics g )
+		{
+			super.paintComponent(g);
+			//pokePic.paintIcon(this,g,0,0); //畫出Icon物件
+			setBackground(Color.WHITE);
+			g.drawImage(pokePic,50,50,400,400,this);
+		}
+		}
+	
+	public HW3_103403530(){//建構子
+		super("Pokemon");//視窗標題
+		
+		setLayout(new BorderLayout());//畫面分為北中南
+		//setLayout(new GridLayout(3,1)); //畫面分為三欄
+		GamePic gamePic = new GamePic(); 
+		gamePic.setPreferredSize(new Dimension(490,490)); //調整遊戲畫面大小
+		repaint(); //畫出圖片
+		//gameView.setPreferredSize(new Dimension(200,200));
+		gameView.setBackground(Color.WHITE);
+		gameView.add(gamePic);
+		//nameDisplay.setLayout(new GridLayout(1,0));
+		//nameDisplay.setPreferredSize(new Dimension(100,100));
+		//nameDisplay.add(nickName);
+		//nickName.setLayout(new GridLayout(1,0));
+		//nickName.setMaximumSize( new Dimension( 10, 10 ) );
+		//nickName.setPreferredSize( new Dimension( 650, 30 ) );
+		//nameDisplay.setPreferredSize(new Dimension(300,30));
+		//buttonView.add(nickName);
+		//gameView.setSize(200,200);
+		//gameView.setPreferredSize(new Dimension(100,100));//設JPanel
+		//gameView.setBackground(pokePic);
+		
+		//gameView.setPreferedSize(200,200);
+		//gameView.setBounds(0,0,700,700);
+		//gameViewTest.setIcon(pokePic);
+		
+		//擺設按鈕操作位置
+		
+		buttonView.setLayout(new GridLayout(4,1)); //分成四層
+		buttonView1.add(nickName); //第一層
+		nickName.setPreferredSize(new Dimension(650,30));
+		buttonView2.add(giveCandy); //第二層
+		buttonView2.add(candyState);
+		buttonView3.add(openFile); //第三層
+		buttonView3.add(saveFile);
+		buttonView3.add(saveAnotherFile);
+		buttonView4.setLayout(new FlowLayout(FlowLayout.LEFT));//第四層
+		buttonView4.add(fileState); 
+		
+		giveCandy.addActionListener( //給糖果
+
+		         new ActionListener() 
+		         {    
+		            public void actionPerformed( ActionEvent event )
+		            {
+		            	nowCandy++; //增加一個糖果
+		                candyState.setText(nowCandy+"/"+needCandy);
+		            } 
+		         } 
+		      ); 
+		
+		openFile.addActionListener( //開檔案
+			new ActionListener(){
+				public void actionPerformed(ActionEvent event){
+					openFile(); //打開檔案
+					readFile(); //讀檔
+					closeFile(); //關檔
+				}
+
+				private void openFile() {
+					// TODO 自動產生的方法 Stub
+					JFileChooser fileChooser = new JFileChooser();
+					fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);//只能選檔案
+					fileChooser.setCurrentDirectory(new File(".")) ; //預設在當前資料夾
+					String fileName = ""; //得到所選檔案
+					int result = fileChooser.showOpenDialog(HW3_103403530.this);//讀檔
+					try{
+							if(result == JFileChooser.APPROVE_OPTION){ //如果按下確認鍵
+								fileName = fileChooser.getSelectedFile().getAbsolutePath();//存取存在的位置
+								input = new ObjectInputStream(new FileInputStream(fileName)); //會擲出IOException							
+								//input = new Scanner(new File(fileName));
+							}
+							else if(result == JFileChooser.CANCEL_OPTION){ //關閉程式
+								System.exit(1);
+							}
+					}
+					catch(IOException ioException){
+						System.err.println("讀檔錯誤");
+					}
+					
+						
+					}
+					private void readFile() {
+					// TODO 自動產生的方法 Stub
+						PokeSerializable pokemon = new PokeSerializable();
+						try{
+							pokemon = (PokeSerializable) input.readObject(); //將檔案讀近來
+							/*while(input.hasNext()){ //input the values from file
+								pokemon.setNickname(input.nextLine());
+								pokemon.setMonster(input.nextLine());
+								pokemon.setCandy(input.nextInt());
+							}*/
+						}
+						catch(ClassNotFoundException classNotFoundException){
+							System.err.println("Unable to create object.");
+						}
+						catch(IOException ioException){
+							System.err.println("讀檔錯誤");
+						}
+					
+					}
+					private void closeFile() {
+					// TODO 自動產生的方法 Stub
+						try{
+							if(input != null){
+								input.close();
+							}
+						}
+						catch(IOException ioException){
+							System.
+						}
+					}
+			}
+		);
+		
+		saveAnotherFile.addActionListener( //另存檔案
+				new ActionListener(){
+					public void actionPerformed(ActionEvent event){
+						//try{
+						//int check = 0; //確認是否有選擇檔案
+							//while(check == 0){
+								openFile(); //選擇檔案
+							//}
+							addPokeInfo();//存取poke資料
+							closeFile(); //關閉檔案
+							//System.out.print(nickName.getText());
+						//}
+						/*catch(IOException ioException){
+							System.err.println("存檔錯誤");
+						} */
+						
+					}
+
+					
+					
+
+
+					private void openFile() { //選擇存檔位置
+						// TODO 自動產生的方法 Stub
+						JFileChooser fileChooser = new JFileChooser();
+						fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);//存檔案
+						fileChooser.setCurrentDirectory(new File(".")) ; //預設存在當前資料夾
+						int result = fileChooser.showSaveDialog(HW3_103403530.this);//存檔
+						String fileName = "";
+						
+						try{
+							//while(fileName == ""){ //fileName是空的
+								if(result == JFileChooser.APPROVE_OPTION){ //如果按下確認鍵
+									//String fileName = fileChooser.getSelectedFile().getName();//讀使用者輸入檔名
+									fileName = fileChooser.getSelectedFile().getAbsolutePath();//存取存在的位置
+									//.out.println(fileName);
+									output = new ObjectOutputStream(new FileOutputStream(fileName)); //會擲出IOException
+									
+								}
+								else if(result == JFileChooser.CANCEL_OPTION){ //關閉程式
+									System.exit(1);
+								}
+							//}
+							
+						}
+						catch(IOException ioException){
+							System.err.println("存檔錯誤");
+						}
+					}
+					
+					private void addPokeInfo() { //將資料存進去
+						// TODO 自動產生的方法 Stub
+						try{
+							PokeSerializable pokemon;
+							String nickname = nickName.getText();
+							String monster = picName;
+							int candy = nowCandy;
+							pokemon = new PokeSerializable(nickname,monster,candy);
+							output.writeObject(pokemon); //寫進檔案裡
+						}
+						catch(IOException ioException){
+							System.err.println("存檔錯誤");
+						}
+					}
+					
+					private void closeFile() { //關閉檔案
+						// TODO 自動產生的方法 Stub
+						try{
+							if(output != null){
+								output.close();
+							}
+						}
+						catch(IOException ioException){
+							System.err.println("Error closing file");
+							System.exit(1);
+						}
+					}
+
+				});
+		
+		buttonView.add(buttonView1);
+		buttonView.add(buttonView2);
+		buttonView.add(buttonView3);
+		buttonView.add(buttonView4);
+		
+		
+		/*buttonView.setLayout(new BoxLayout(buttonView,BoxLayout.Y_AXIS)); //垂直分布
+		//Box box1 = Box.createHorizontalBox(); //第一層
+		//box1.add(nickName);
+		Box box2 = Box.createHorizontalBox(); //第二層
+		box2.add(giveCandy);
+		box2.add(candyState);
+		Box box3 = Box.createHorizontalBox(); //第三層
+		box3.add(openFile);
+		box3.add(saveFile);
+		box3.add(saveAnotherFile);
+		Box box4 = Box.createHorizontalBox(); //第四層
+		box4.add(fileState);
+		box4.add(Box.createHorizontalGlue()); //把fileState擠到最左邊
+		//buttonView.add(box1);
+		buttonView.add(box2);
+		buttonView.add(box3);
+		buttonView.add(box4);*/
+		
+		//擺設畫面位置
+		add(gameView,BorderLayout.NORTH); //
+		add(buttonView,BorderLayout.SOUTH); //
+		//add(buttonView); 
+	}
+	
+	
+
+	public static void main(String[] args){//主程式
+		HW3_103403530 hw3 = new HW3_103403530();
+		hw3.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		hw3.setSize( 700, 700 ); // set frame size
+		hw3.setVisible( true ); // display frame
+	}	
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2845)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:604)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:334)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2511)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1696)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2751)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:635)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:195)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2958)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1374)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:270)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1082)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:789)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1247)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2016-11-05 21:33:28.220
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2845)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:604)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:334)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2511)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1696)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2751)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:635)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:195)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2958)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1374)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:270)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1082)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:789)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1247)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2016-11-05 21:33:28.222
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2845)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:604)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:334)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2511)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1696)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2751)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:635)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:195)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2958)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1374)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:270)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1082)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:789)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1247)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-11-05 21:33:28.307
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Graphics;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.Scanner;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+import javax.imageio.ImageIO;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class HW3_103403530 extends JFrame {
+	private JPanel gameView = new JPanel();//遊戲畫面，放小火龍的圖片
+	//private JPanel nameDisplay = new JPanel(); //放nickname輸入條
+	private JPanel buttonView = new JPanel();//按鈕操作位置
+	private JTextField nickName = new JTextField("Set your nickname"); //輸入名字
+	private JButton giveCandy = new JButton("Give Candy"); //給糖果按鈕
+	private int nowCandy = 0; //現在糖果
+	private int needCandy = 25; //需要糖果
+	private JButton openFile = new JButton("Open Game"); //打開舊檔案按鈕
+	private JButton saveFile = new JButton("Save"); //儲存檔案(舊檔)
+	private JButton saveAnotherFile = new JButton("Save As");//另存新檔
+	private JLabel candyState = new JLabel("0/25");//已給糖果與需多少糖果的狀態
+	private JLabel fileState = new JLabel("New File");//檔案狀態
+	//private Icon pokePic = new ImageIcon(getClass().getResource("small.png"));
+	private BufferedImage pokePic;
+	private String picName = "small.png"; //圖片名稱
+	//private Image pokePic2;
+	//private JLabel gameViewTest = new JLabel();
+	private JPanel buttonView1 = new JPanel(); //分別當四個欄位
+	private JPanel buttonView2 = new JPanel();
+	private JPanel buttonView3 = new JPanel();
+	private JPanel buttonView4 = new JPanel();
+	private ObjectOutputStream output;
+	private ObjectInputStream input;
+	//private Scanner input;
+	
+	//顯示遊戲圖片
+	private class GamePic extends JPanel{
+		public GamePic(){
+			try {      
+		          pokePic = ImageIO.read(getClass().getResource(picName));
+		       } catch (IOException ex) {
+		            // handle exception...
+		       }
+		}
+		public void paintComponent( Graphics g )
+		{
+			super.paintComponent(g);
+			//pokePic.paintIcon(this,g,0,0); //畫出Icon物件
+			setBackground(Color.WHITE);
+			g.drawImage(pokePic,50,50,400,400,this);
+		}
+		}
+	
+	public HW3_103403530(){//建構子
+		super("Pokemon");//視窗標題
+		
+		setLayout(new BorderLayout());//畫面分為北中南
+		//setLayout(new GridLayout(3,1)); //畫面分為三欄
+		GamePic gamePic = new GamePic(); 
+		gamePic.setPreferredSize(new Dimension(490,490)); //調整遊戲畫面大小
+		repaint(); //畫出圖片
+		//gameView.setPreferredSize(new Dimension(200,200));
+		gameView.setBackground(Color.WHITE);
+		gameView.add(gamePic);
+		//nameDisplay.setLayout(new GridLayout(1,0));
+		//nameDisplay.setPreferredSize(new Dimension(100,100));
+		//nameDisplay.add(nickName);
+		//nickName.setLayout(new GridLayout(1,0));
+		//nickName.setMaximumSize( new Dimension( 10, 10 ) );
+		//nickName.setPreferredSize( new Dimension( 650, 30 ) );
+		//nameDisplay.setPreferredSize(new Dimension(300,30));
+		//buttonView.add(nickName);
+		//gameView.setSize(200,200);
+		//gameView.setPreferredSize(new Dimension(100,100));//設JPanel
+		//gameView.setBackground(pokePic);
+		
+		//gameView.setPreferedSize(200,200);
+		//gameView.setBounds(0,0,700,700);
+		//gameViewTest.setIcon(pokePic);
+		
+		//擺設按鈕操作位置
+		
+		buttonView.setLayout(new GridLayout(4,1)); //分成四層
+		buttonView1.add(nickName); //第一層
+		nickName.setPreferredSize(new Dimension(650,30));
+		buttonView2.add(giveCandy); //第二層
+		buttonView2.add(candyState);
+		buttonView3.add(openFile); //第三層
+		buttonView3.add(saveFile);
+		buttonView3.add(saveAnotherFile);
+		buttonView4.setLayout(new FlowLayout(FlowLayout.LEFT));//第四層
+		buttonView4.add(fileState); 
+		
+		giveCandy.addActionListener( //給糖果
+
+		         new ActionListener() 
+		         {    
+		            public void actionPerformed( ActionEvent event )
+		            {
+		            	nowCandy++; //增加一個糖果
+		                candyState.setText(nowCandy+"/"+needCandy);
+		            } 
+		         } 
+		      ); 
+		
+		openFile.addActionListener( //開檔案
+			new ActionListener(){
+				public void actionPerformed(ActionEvent event){
+					openFile(); //打開檔案
+					readFile(); //讀檔
+					closeFile(); //關檔
+				}
+
+				private void openFile() {
+					// TODO 自動產生的方法 Stub
+					JFileChooser fileChooser = new JFileChooser();
+					fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);//只能選檔案
+					fileChooser.setCurrentDirectory(new File(".")) ; //預設在當前資料夾
+					String fileName = ""; //得到所選檔案
+					int result = fileChooser.showOpenDialog(HW3_103403530.this);//讀檔
+					try{
+							if(result == JFileChooser.APPROVE_OPTION){ //如果按下確認鍵
+								fileName = fileChooser.getSelectedFile().getAbsolutePath();//存取存在的位置
+								input = new ObjectInputStream(new FileInputStream(fileName)); //會擲出IOException							
+								//input = new Scanner(new File(fileName));
+							}
+							else if(result == JFileChooser.CANCEL_OPTION){ //關閉程式
+								System.exit(1);
+							}
+					}
+					catch(IOException ioException){
+						System.err.println("讀檔錯誤");
+					}
+					
+						
+					}
+					private void readFile() {
+					// TODO 自動產生的方法 Stub
+						PokeSerializable pokemon = new PokeSerializable();
+						try{
+							pokemon = (PokeSerializable) input.readObject(); //將檔案讀近來
+							/*while(input.hasNext()){ //input the values from file
+								pokemon.setNickname(input.nextLine());
+								pokemon.setMonster(input.nextLine());
+								pokemon.setCandy(input.nextInt());
+							}*/
+						}
+						catch(ClassNotFoundException classNotFoundException){
+							System.err.println("Unable to create object.");
+						}
+						catch(IOException ioException){
+							System.err.println("讀檔錯誤");
+						}
+					
+					}
+					private void closeFile() {
+					// TODO 自動產生的方法 Stub
+						try{
+							if(input != null){
+								input.close();
+							}
+						}
+						catch(IOException ioException){
+							System.
+						}
+					}
+			}
+		);
+		
+		saveAnotherFile.addActionListener( //另存檔案
+				new ActionListener(){
+					public void actionPerformed(ActionEvent event){
+						//try{
+						//int check = 0; //確認是否有選擇檔案
+							//while(check == 0){
+								openFile(); //選擇檔案
+							//}
+							addPokeInfo();//存取poke資料
+							closeFile(); //關閉檔案
+							//System.out.print(nickName.getText());
+						//}
+						/*catch(IOException ioException){
+							System.err.println("存檔錯誤");
+						} */
+						
+					}
+
+					
+					
+
+
+					private void openFile() { //選擇存檔位置
+						// TODO 自動產生的方法 Stub
+						JFileChooser fileChooser = new JFileChooser();
+						fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);//存檔案
+						fileChooser.setCurrentDirectory(new File(".")) ; //預設存在當前資料夾
+						int result = fileChooser.showSaveDialog(HW3_103403530.this);//存檔
+						String fileName = "";
+						
+						try{
+							//while(fileName == ""){ //fileName是空的
+								if(result == JFileChooser.APPROVE_OPTION){ //如果按下確認鍵
+									//String fileName = fileChooser.getSelectedFile().getName();//讀使用者輸入檔名
+									fileName = fileChooser.getSelectedFile().getAbsolutePath();//存取存在的位置
+									//.out.println(fileName);
+									output = new ObjectOutputStream(new FileOutputStream(fileName)); //會擲出IOException
+									
+								}
+								else if(result == JFileChooser.CANCEL_OPTION){ //關閉程式
+									System.exit(1);
+								}
+							//}
+							
+						}
+						catch(IOException ioException){
+							System.err.println("存檔錯誤");
+						}
+					}
+					
+					private void addPokeInfo() { //將資料存進去
+						// TODO 自動產生的方法 Stub
+						try{
+							PokeSerializable pokemon;
+							String nickname = nickName.getText();
+							String monster = picName;
+							int candy = nowCandy;
+							pokemon = new PokeSerializable(nickname,monster,candy);
+							output.writeObject(pokemon); //寫進檔案裡
+						}
+						catch(IOException ioException){
+							System.err.println("存檔錯誤");
+						}
+					}
+					
+					private void closeFile() { //關閉檔案
+						// TODO 自動產生的方法 Stub
+						try{
+							if(output != null){
+								output.close();
+							}
+						}
+						catch(IOException ioException){
+							System.err.println("Error closing file");
+							System.exit(1);
+						}
+					}
+
+				});
+		
+		buttonView.add(buttonView1);
+		buttonView.add(buttonView2);
+		buttonView.add(buttonView3);
+		buttonView.add(buttonView4);
+		
+		
+		/*buttonView.setLayout(new BoxLayout(buttonView,BoxLayout.Y_AXIS)); //垂直分布
+		//Box box1 = Box.createHorizontalBox(); //第一層
+		//box1.add(nickName);
+		Box box2 = Box.createHorizontalBox(); //第二層
+		box2.add(giveCandy);
+		box2.add(candyState);
+		Box box3 = Box.createHorizontalBox(); //第三層
+		box3.add(openFile);
+		box3.add(saveFile);
+		box3.add(saveAnotherFile);
+		Box box4 = Box.createHorizontalBox(); //第四層
+		box4.add(fileState);
+		box4.add(Box.createHorizontalGlue()); //把fileState擠到最左邊
+		//buttonView.add(box1);
+		buttonView.add(box2);
+		buttonView.add(box3);
+		buttonView.add(box4);*/
+		
+		//擺設畫面位置
+		add(gameView,BorderLayout.NORTH); //
+		add(buttonView,BorderLayout.SOUTH); //
+		//add(buttonView); 
+	}
+	
+	
+
+	public static void main(String[] args){//主程式
+		HW3_103403530 hw3 = new HW3_103403530();
+		hw3.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		hw3.setSize( 700, 700 ); // set frame size
+		hw3.setVisible( true ); // display frame
+	}	
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2845)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:604)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:334)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2511)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1696)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2751)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:635)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:195)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2958)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1374)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:292)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1209)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:809)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:480)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2016-11-05 21:33:28.310
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2845)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:604)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:334)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2511)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1696)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2751)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:635)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:195)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2958)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1374)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:292)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1209)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:809)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:480)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2016-11-05 21:33:28.312
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2845)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:604)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:334)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2511)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1696)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2751)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:635)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:195)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2958)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1374)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:292)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1209)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:809)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:480)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-11-06 17:15:27.394 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-06 17:16:04.530
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-06 17:16:04.534
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-06 20:49:39.617 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-06 20:50:21.599
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-06 20:50:21.602
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2016-11-06 20:51:10.232
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@58882a93)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@51d9479c)}
+!SESSION 2016-11-09 14:39:19.814 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-09 14:39:57.973
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-09 14:39:57.988
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-09 19:29:37.171 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-09 19:30:16.642
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-09 19:30:16.645
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-09 19:56:14.482 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-09 19:56:47.259
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-09 19:56:47.259
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-09 20:01:40.278 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-09 20:02:12.390
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-09 20:02:12.393
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-13 23:34:55.455 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-13 23:35:36.567
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-13 23:35:36.583
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-20 22:19:28.203 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -data C:\Users\HOSI\workspace\CH17 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:19:59.767
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:19:59.783
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-20 22:21:04.541 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product -data C:\Users\HOSI\workspace\CH17 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:21:38.340
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:21:38.342
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-20 22:25:38.901 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:26:05.965
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:26:05.980
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-20 22:29:18.430 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product -data C:\Users\HOSI\workspace\CH17 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:29:44.473
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:29:44.475
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-21 17:38:37.635 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-21 17:39:09.371
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-21 17:39:09.402
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HOSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

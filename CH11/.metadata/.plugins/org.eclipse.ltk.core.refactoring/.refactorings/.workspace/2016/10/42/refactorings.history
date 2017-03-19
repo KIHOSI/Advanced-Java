@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="將 Java 專案 &apos;fig11_03&apos; 重新命名為 &apos;fig11_04&apos;&#x0D;&#x0A;- 原始元素：&apos;fig11_03&apos;&#x0D;&#x0A;- 重新命名的元素：&apos;fig11_03&apos;&#x0D;&#x0A;- 更新對已重構元素的參照" description="重新命名 Java 專案 &apos;fig11_03&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=fig11_03" name="fig11_04" references="true" stamp="1476434225588" version="1.0"/>
+</session>

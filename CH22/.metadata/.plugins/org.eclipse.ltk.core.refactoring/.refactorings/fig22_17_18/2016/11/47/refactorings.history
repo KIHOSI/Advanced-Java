@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Tree.java&apos; to &apos;fig22_17_18/src/com.deitel.ch22&apos;&#x0D;&#x0A;- 原始物件：&apos;fig22_17_18&apos;&#x0D;&#x0A;- 目的地元素：&apos;fig22_17_18/src/com.deitel.ch22&apos;&#x0D;&#x0A;- 原始元素：&apos;Tree.java&apos;&#x0D;&#x0A;- 更新對已重構元素的參照" description="移動編譯單元" destination="/src&lt;com.deitel.ch22" element1="/src&lt;{Tree.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1479054002158" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,42 @@
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class HW3_103403530 extends JFrame {
+	private JPanel gameView;//遊戲畫面，放小火龍的圖片
+	private JPanel buttonView;//按鈕操作位置
+	private JTextField nickName; //輸入名字
+	private JButton giveCandy = new JButton("Give Candy"); //給糖果按鈕
+	private JButton openFile = new JButton("Open Game"); //打開舊檔案按鈕
+	private JButton saveFile = new JButton("Save"); //儲存檔案(舊檔)
+	private JButton saveAnotherFile = new JButton("Save As");//另存新檔
+	private JLabel candyState;//已給糖果與需多少糖果的狀態
+	private JLabel fileState;//檔案狀態
+	
+	public HW3_103403530(){//建構子
+		super("Pokemon");
+		setLayout(new BorderLayout());//畫面分為北中南
+		//gameView.setSize(200,200);
+		//gameView.setPreferredSize(new Dimension(10,10));//設JPanel
+		//buttonView.setLayout(new GridLayout(3,8));
+		//buttonView.add(giveCandy);
+		//buttonView(,)
+		//擺設畫面位置
+		add(gameView,BorderLayout.WEST); 
+		add(nickName,BorderLayout.CENTER);
+		add(buttonView,BorderLayout.SOUTH);
+	}
+
+	public static void main(String[] args){//主程式
+		HW3_103403530 hw1 = new HW3_103403530();
+		hw1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		hw1.setSize( 700, 700 ); // set frame size
+		hw1.setVisible( true ); // display frame
+	}	
+}

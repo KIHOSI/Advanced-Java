@@ -1,0 +1,87 @@
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Graphics;
+import java.awt.GridLayout;
+
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class HW3_103403530 extends JFrame {
+	//private JPanel gameView = new JPanel();//遊戲畫面，放小火龍的圖片
+	private JPanel buttonView = new JPanel();//按鈕操作位置
+	private JTextField nickName = new JTextField("Set your nickname"); //輸入名字
+	private JButton giveCandy = new JButton("Give Candy"); //給糖果按鈕
+	private JButton openFile = new JButton("Open Game"); //打開舊檔案按鈕
+	private JButton saveFile = new JButton("Save"); //儲存檔案(舊檔)
+	private JButton saveAnotherFile = new JButton("Save As");//另存新檔
+	private JLabel candyState = new JLabel("0/25");//已給糖果與需多少糖果的狀態
+	private JLabel fileState = new JLabel("New File");//檔案狀態
+	private Icon pokePic = new ImageIcon(getClass().getResource("small.png"));
+	//private JLabel gameViewTest = new JLabel();
+	
+	//顯示遊戲圖片
+	private class GameView extends JPanel{
+		public void paintComponent( Graphics g )
+		{
+			super.paintComponent(g);
+			pokePic.paintIcon(this,g,0,0); //畫出Icon物件
+		}
+		}
+	
+	public HW3_103403530(){//建構子
+		super("Pokemon");//視窗標題
+		
+		setLayout(new BorderLayout());//畫面分為北中南
+		GameView gameView = new GameView(); 
+		gameView.setPreferredSize(new Dimension(400,400)); //調整遊戲畫面大小
+		repaint(); //畫出圖片
+		nickName.setLayout(new BoxLayout(nickName,BoxLayout.Y_AXIS));
+		
+		//gameView.setSize(200,200);
+		//gameView.setPreferredSize(new Dimension(100,100));//設JPanel
+		//gameView.setBackground(pokePic);
+		
+		//gameView.setPreferedSize(200,200);
+		//gameView.setBounds(0,0,700,700);
+		//gameViewTest.setIcon(pokePic);
+		
+		//擺設按鈕操作位置
+		buttonView.setLayout(new BoxLayout(buttonView,BoxLayout.Y_AXIS)); //垂直分布
+		Box box1 = Box.createHorizontalBox(); //第一層
+		box1.add(giveCandy);
+		box1.add(candyState);
+		Box box2 = Box.createHorizontalBox(); //第二層
+		box2.add(openFile);
+		box2.add(saveFile);
+		box2.add(saveAnotherFile);
+		Box box3 = Box.createHorizontalBox(); //第三層
+		box3.add(fileState);
+		box3.add(Box.createHorizontalGlue()); //把fileState擠到最左邊
+		buttonView.add(box1);
+		buttonView.add(box2);
+		buttonView.add(box3);
+		
+		//擺設畫面位置
+		add(gameView,BorderLayout.NORTH); 
+		add(nickName,BorderLayout.CENTER);
+		add(buttonView,BorderLayout.SOUTH);
+	}
+	
+	
+
+	public static void main(String[] args){//主程式
+		HW3_103403530 hw3 = new HW3_103403530();
+		hw3.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		hw3.setSize( 700, 700 ); // set frame size
+		hw3.setVisible( true ); // display frame
+	}	
+}
